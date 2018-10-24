@@ -1,0 +1,39 @@
+/*
+Cheung Anthony
+
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline:1px solid red;  */
+   }
+#wrapper{
+    margin: 0px auto;
+    width: 400px;
+    border: 2px solid black;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 20px;
+    display: inline-block;   
+    vertical-align: top;   
+    }
+    #input {
+        display: inline-block;   
+        vertical-align: top;   
+        margin: 7px 7px;
+        width: 300px;
+        text-align: right;
+        }
+    h2 {
+        text-align: right;
+        margin: 0px 100px 0px 0px ;
+        }
+        h2 button {
+            background-color: rgb(39, 94, 131);
+            border: 2px solid black;
+            color: white;
+            box-shadow: 2px 2px 2px 0px black;
+            height: 25px;
+            width: 75px ;
+
+        }

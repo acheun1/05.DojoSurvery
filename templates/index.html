@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dojo Survey 2018 09 29 / Index.html Cheung A</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="wrapper">
+        <form action="/results" method='post'>
+            <div id="input">
+                <label for="f_name">Your First Name:</label>
+                <input type="text" name="f_name" >
+            </div>
+            <div id="input">
+                <label for="l_name">Your Last Name:</label>
+                <input type="text" name="l_name" >            
+            </div>
+            <div id="input">
+                <label for="dojolocation">Dojo Location:</label>
+                <select name="dojolocation" >
+                <option value="Los Angeles">Los Angeles</option>                    
+                <option value="Chicago">Chicago</option>
+                <option value="Seattle">Seattle</option>
+                </select>         
+            </div>
+            <div id="input">
+                <label for="lang">Favorite Language:</label>
+                <select name="lang" >
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="Python">Python</option>                
+                </select>                   
+            </div>            
+            <div id="input">
+                <label for="">Comment (optional):</label>
+                <textarea name="desc" cols="30" rows="10"></textarea>           
+            </div> 
+            <h2>
+                <button><input type="submit" value="Submit"></button>
+            </h2> 
+        </form>
+    </div>
+</body>
+</html>
+  
+
+
+
